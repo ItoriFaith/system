@@ -1,0 +1,16 @@
+{
+  "name": "pizza-backend",
+  "version": "1.0.0",
+  "description": "A backend for pizza ordering",
+  "main": "back.js",
+  "scripts": {
+    "start": "node back.js",
+    "dev": "node back.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.12.0"
+  }
+}
